@@ -15,7 +15,7 @@
  */
 
 data "google_project" "project" {
-  project_id = var.project_id
+  project_id = "natural-metric-360918"
 }
 
 resource "google_project_iam_member" "composer_agent_service_account" {
