@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-module "gts-composer-environment" {
+module "simple-composer-environment" {
   source                           = "../../modules/create_environment_v2"
   project_id                       = var.project_id
   composer_env_name                = var.composer_env_name
